@@ -1,6 +1,6 @@
 Owner of this code is Postgres Professional (Russia).
 
-Test to demonstrate a problem with multitransaction and wraparound.
+Test to demonstrate a problem of database cluster migration where a wraparound of multixact is occurred.
 
 Usage (Linux)
 
@@ -14,3 +14,7 @@ export TEST_CFG__NEW_BIN_DIR="path_to_target_postgres"
 
 3) Run "pytest -l -v -n 8"
 
+-----
+Log files are created in folder ./logs
+
+Temporary files are created in folder ./tmp

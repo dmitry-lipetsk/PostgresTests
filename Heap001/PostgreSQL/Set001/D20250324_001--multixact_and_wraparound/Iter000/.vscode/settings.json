@@ -3,7 +3,7 @@
          "--config-file=pytest.ini",
          "-v",
          "-l",
-         "-n", "1"
+         "-n", "8"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
